@@ -1,0 +1,4 @@
+userValidEmail: "test001@mail.com"
+userValidPassword: "qwerty123"
+userInvalidEmail: "test001"
+userInvalidPassword: "qwe123"
