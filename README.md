@@ -12,6 +12,16 @@ All Webdrvers are added to webdriver folder under resources
 │       └── webdriver      # webdriver files
 └── ...
 ```
+You can change environment url from serenity.conf file
+```
+.
+├── ...
+├── test                   
+│   ├── resources 
+│       └── serenity.conf
+└── ...
+```
+
 Parallel runs have been implemented with docker container using the Zalenium. Docker & Docker Compose needs to be preinstalled in your machine to run the tests with Zalenium.
 Use Docker Info if everything is fine after installation. 
 ```
