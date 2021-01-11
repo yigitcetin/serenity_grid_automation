@@ -31,10 +31,6 @@ public class LoginStepDefinitions {
     @Steps
     HomePageActions Profile;
 
-    @Given("{actor}, an existing customer navigates to application home page")
-    public void user_navigates_to_application_home_page(Actor actor) {
-        actor.wasAbleTo(NavigateTo.theHomePage());
-    }
 
     @When("{actor} click login button")
     public void user_goes_to_login_page(Actor actor) {
